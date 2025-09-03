@@ -9,7 +9,7 @@ services:
     networks:
       - fleetlinknet
     environment:
-      - MONGO_URI=mongodb+srv://rocktheway2akash:GrWPOgfFnWpQZxKx@fleetlink.j7scb1a.mongodb.net/FleetLink?retryWrites=true&w=majority&appName=FleetLink&family=4
+      - mongodb+srv://vickysonaiya0189_db_user:0XIrsTYChVTKtWAP@truckmanagement.lcqx4cn.mongodb.net/?retryWrites=true&w=majority&appName=TruckManagement
 
   frontend:
     build: ./Frontend
